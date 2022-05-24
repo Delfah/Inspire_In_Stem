@@ -12,3 +12,4 @@ for number in range (0,9):
    print("\t")
    print(number**2)
 
+
