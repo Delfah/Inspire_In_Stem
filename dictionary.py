@@ -27,19 +27,20 @@ print(person['color'])
 del person['phone_number']
 print(type(person))
 print(person)
-
+print(person.get{'password','the age'key is non existence})
 #looping over dictionaries
-for  key, value in person . item():
+#for  key, value in person . item():
    # print (f"{key} :{value}")
     #print(f'{key}:{value}')
 
- colors=['red','green','blue','yellow']
-i =0
-while i <len (colors):
-  if (colors[1]=='green'):
-      print(colors[1].upper())
-      i+=1
-
+ #colors=['red','green','blue','yellow']
+#i =0
+#while i <len (colors):
+#  if (colors[1]=='green'):
+ #     print(colors[1].upper())
+  #    i+=1
+# getting access  to a dictionary
+print(person.get{'age','the age key is non existence'})
 
     
 
