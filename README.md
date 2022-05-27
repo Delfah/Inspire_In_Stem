@@ -22,6 +22,12 @@ dictionary in list
 list in dictionary
 
 
+n!=(n-1)*(n=2)*(n-3)........
+6!=6*5*4*3*2*1=720
+4!=4*3*2*4=24
+the is no factorial of negative numbetrs
+
+
 
 
 
