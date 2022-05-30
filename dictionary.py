@@ -27,7 +27,7 @@ print(person['color'])
 del person['phone_number']
 print(type(person))
 print(person)
-print(person.get{'password','the age'key is non existence})
+#print(person.get{'password','the age'key is non existence})
 #looping over dictionaries
 #for  key, value in person . item():
    # print (f"{key} :{value}")
@@ -40,7 +40,7 @@ print(person.get{'password','the age'key is non existence})
  #     print(colors[1].upper())
   #    i+=1
 # getting access  to a dictionary
-print(person.get{'age','the age key is non existence'})
+#print(person.get{'age','the age key is non existence'})
 
     
 

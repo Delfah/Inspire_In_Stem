@@ -1,3 +1,7 @@
+# !usr/bin/python
+
+####################
+# geometric progression
 #first n term of gemotric progression
 
 a = int(input("enter value of a:"))

@@ -5,10 +5,15 @@ food={
     'mary':['beef','chiken','vegetable'],
     'jane':['rice','ugali','potatoes'],
 }
-print(food)
+#print(food)
 # list in dictionaries
 # person (name,email,password)
 person= {
     'joy':['name','email','passward']
 }
-print(person)
+#
+#print(person)
+
+for key,value in food.items():
+    print(f"{key}:{value}")
+
