@@ -27,6 +27,11 @@ n!=(n-1)*(n=2)*(n-3)........
 4!=4*3*2*4=24
 the is no factorial of negative numbetrs
 
+draw a program that can write numbers in reverse
+eg: input is 700
+    output is 007
+    
+
 
 
 
