@@ -30,6 +30,13 @@ the is no factorial of negative numbetrs
 draw a program that can write numbers in reverse
 eg: input is 700
     output is 007
+
+list=[]
+dictionaries={}
+tuples=()
+
+functions is a block of code which gets executed together
+
     
 
 
