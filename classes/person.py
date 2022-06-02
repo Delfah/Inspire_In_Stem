@@ -1,3 +1,12 @@
+#! usr/bin/python
+
+#################
+# name:kendi
+# date:2,june,2022
+# classes
+
+#################
+
 class person:
     def __init__(self, _name, _age):
       self.name= _name
