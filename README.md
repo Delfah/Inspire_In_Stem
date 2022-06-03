@@ -36,6 +36,14 @@ dictionaries={}
 tuples=()
 
 functions is a block of code which gets executed together
+A function inside a class in an object
+__INIT__is an internal method inside a class
+in function we use 'def'
+  eg def sum (a,b):
+       sum_nums=a+b
+       print(sum_nums)
+     sum(20,40) - 'calling' 
+
 
     
 
