@@ -12,20 +12,22 @@
 
 
 def mult_number(x,y):
-    result = str(x * y)
-    return result
+    return x + y
+    
+    
 
 def div_number(x,y):
-    result = str(x / y)
-    return result
+    return x / y
+    
+    
 
 def add_number(x,y):
-    result = str(x + y)
-    return result
+    return x + y
+    
 
 def sub_number(x,y):
-    result = str(x - y)
-    return result    
+    return x-y
+     
 
 class student:
     def __init__(self,name,hobby,year_of_birth): 
