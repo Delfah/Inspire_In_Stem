@@ -42,7 +42,12 @@ in function we use 'def'
   eg def sum (a,b):
        sum_nums=a+b
        print(sum_nums)
-     sum(20,40) - 'calling' 
+     sum(20,40) - 'calling'
+
+palindromes
+ask user to select which input to check number or letter
+after user enters their inputs the program should print based on the input intered
+the number entered is a palindrome      
 
 
     

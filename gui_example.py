@@ -7,14 +7,15 @@
 
 ##################
 
-from tkinter import *
 
-def open_popup():
-    top = Toplevel(window)
-    top.geometry("300x300")
-    top.title("pop up window")
-    top.configure(bg='grey')
-    msg= Label(top,text ="welcome to pop up", font = ('Misral 18').place(x=150,y=150))
+from tkinter import *
+class window(Tk.Toplevel):
+  def __init__(self,parent):
+     super.__init__(parent)
+     self.geometry("300x300")
+     self.title("pop up window")
+     self.configure(bg='grey')
+     msg= Label(self,text ="welcome to pop up", font = ('Misral 18').place(x=150,y=150))
     
 window = Tk()
 window.title("Welcome to my App")
