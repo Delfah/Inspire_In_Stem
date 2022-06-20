@@ -1,65 +1,35 @@
 
 from tkinter import *
-try:
-    import tkinter
-except:
-    import tkinter as Tkinter
-import math
+for PIL import Image,ImageTk,ImageDraw
+from datetime import *
 import time
+from math import*
 
-class main(tkinter.Tk):
-    def __init__(self):
-        Tkinter.Tk.__init__(self)
-        self.x = 150
-        self.y = 150
-        self.length = 50
-        self.creating_all_function_tigger()
-    def creating_all_funtions_tigger(self):
-        self.create_canvas_for_shapes() 
-        self.create_background_()
-        self.create_sticks()
-        return
-    def creating_background_(self):
-        self.image = Tkinter.PhotoImage(file ='clock.gif')
-        self.canvas.create_image(150,150,image = self.image)
-        return
-    def create_canvas_for_shapes(self):
-        self.canvas = Tkinter.canvas(self,bg ='purple')
-        self.canvas.pack(expand = 'yes',fill='both')  
-        return
-    def creating_sticks(self):
-        self.sticks = []
-        for i in range (5):
-            store = self.canvas.create_line(self.x,self.length.y,self.x+self.length,self.y+self.length,width=4,fill= "green")
-        self.sticks.append(store) 
-        return
+class clock:
+    def __init__(self,root):
+        self.root=root
+        self.root.title("Gui analog clock")
+        self.root.geometry("500x500")
+        self.root.configure(bg='purple')
 
-    def update_class(self):
-        now = time.localtime()
-        t = time.strtime(str(now.tm_hour), "%H")
-        hour = int (time.strtime("%I",t))*5
-        now = (hour,now.tm_min,now.tm.sec)
-
-        for n,i in enumerate(now):
-            x,y = self.canvas.coords(self.sticks[n])[0:2]
-            cr =[x,y]
-            cr.append(self.length * math.cos(math.radians(i*6)-math.radians(90))+self.x) 
-            cr.append(self.length * math.sin(math.radians(i*6)-math.radians(90))+self.y)
-            self.canvas.coords(self.sticks[n],tuple(cr))
-            return 
-            
-if __name__ =='_main_':
-    root = main()
-
-    while True:
-        root.update()
-        root.update_idletasks()
-        root.update_class()
+        title=Label(self.root,text="An analog clock",font=('times new roman',50,'bold')).place(x=2,y=40,relwidth=1)
+        self.lbl=Label(self.root,bg="green",bg=,relief=RIASED)
+        self.lbl.place(x=350,y=150,height=400,width=400)
+    def clock_image(self):
+        clock=Image.new("RGB",(350,350),(250,250,250))  
+        draw=ImageDraw.Draw(clock)
+        bg=Image.open("cl.jpg")
+        bg=bg.resize(300,300,Image.ANTIALIS) 
+        clock.paste(bg,(50,50))
+        clock.save("new clock")
 
         
+        
 
-
- 
+root=Tk()
+obj=clock(root)
+root.mainloop()
+        
 
           
 
