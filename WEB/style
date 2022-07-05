@@ -1,13 +1,4 @@
+body
 
 
-<Doctype html>
-<html>
-<head>
-    <title>Hello World</title>
-    <style>
-        body{
-            background-color: blueviolet;
-        }
-    </style>    
-</head>
-</html>    
+
